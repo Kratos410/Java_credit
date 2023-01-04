@@ -11,7 +11,6 @@ public class CreditPaymentService {
         }else{
             coefficient = 0;
         }
-
         double payments  = loan * coefficient;
         return payments;
     }
