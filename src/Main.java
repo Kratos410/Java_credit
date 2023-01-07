@@ -1,8 +1,9 @@
 public class Main {
     public static void main(String[] args) {
         CreditPaymentService service = new CreditPaymentService();
+
         int loan = 1_000_000;           // Сумма кредита в рублях
-        int term = 1;                   // Срок кредита в годах
+        int term = 4;                   // Срок кредита в годах
         double interestRate = 9.99;     // Процентная ставка %
         double payments = service.calculate(loan, term, interestRate);    //Выплаты
 
