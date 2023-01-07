@@ -22,7 +22,7 @@ public class Main {
             System.out.println("Процентная ставка: " + interestRate + " %");
             System.out.println("Срок кредита : " + term + " года");
             System.out.println("Ежемесячная выплата: " + payments + " р.");
-        } else if (payments == 0){
+        } else {
             System.out.println("Простите, срок кредита должен составлять от 1 до 3 лет");
         }
     }
