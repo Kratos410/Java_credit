@@ -11,7 +11,7 @@ public class CreditPaymentService {
         }else{
             coefficient = 0;
         }
-        double payments  = loan * coefficient;
+        double payments  = loan * coefficient; //формула аннуитетного платёжа
         return payments;
     }
 }
